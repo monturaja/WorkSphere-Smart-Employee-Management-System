@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 WorkSphere | Smart Employee Management System
 
-## Getting Started
+**WorkSphere** is a premium, high-performance Employee Management System (EMS) designed with a modern **Glassmorphism** aesthetic. It provides a comprehensive suite of tools for workforce oversight, administrative governance, and employee self-service.
 
-First, run the development server:
+![WorkSphere Banner](public/next.svg) <!-- Replace with a real screenshot later -->
 
+## ✨ Key Features
+
+- **🛡️ Role-Based Access Control (RBAC)**: Distinct, personalized dashboards for **Admins**, **HR**, and **Employees**.
+- **📊 Real-time Analytics**: High-level personnel verification and activity logistics for decision-makers.
+- **💼 Workforce Management**: Centralized employee directory, dynamic department provisioning, and recruitment tools.
+- **🕒 Attendance & Leave Matrix**: Automated chronological verification of check-ins and absence request management.
+- **💰 Fiscal Oversight**: Complete payroll history and financial disbursement tracking.
+- **📱 Responsive UI/UX**: Mobile-first design that scales seamlessly from smartphones to 4K desktops.
+- **✨ Premium Aesthetics**: Dark-themed glassmorphism with vibrant gradients and hardware-accelerated animations.
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js 15+](https://nextjs.org/) (App Router & Turbopack)
+- **Design**: [Tailwind CSS 4.0](https://tailwindcss.com/)
+- **Database**: [MongoDB](https://www.mongodb.com/) via [Mongoose](https://mongoosejs.com/)
+- **Auth**: [Next-Auth](https://next-auth.js.org/) (Secure JWT-based portals)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Animations**: Custom Tailwind keyframes & transitions
+
+## 🚀 Quick Start
+
+### 1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/monturaja/WorkSphere-Smart-Employee-Management-System.git
+cd WorkSphere-Smart-Employee-Management-System
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 3. Configure Environment Variables
+Create a `.env` file in the root directory and add:
+```env
+MONGODB_URI=your_mongodb_connection_string
+NEXTAUTH_SECRET=your_nextauth_secret
+NEXTAUTH_URL=http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 4. Launch Development Environment
+```bash
+npm run dev
+```
+Navigate to [http://localhost:3000](http://localhost:3000) to see the system in action.
 
-## Learn More
+## 🚢 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+The project is optimized for deployment on the **Vercel Platform**. Ensure all environment variables are configured in the Vercel dashboard during the import process.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📜 License
+Produced under the MIT License. Built with passion for excellence in workforce management.
